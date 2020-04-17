@@ -1,0 +1,18 @@
+{
+  "name": "nike-drop-buy-bot",
+  "version": "1.0.0",
+  "description": "A bot using Node.js / puppeteer that buys a Nike shoe when it drops",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "puppeteer": "2.0.0",
+    "puppeteer-extra": "3.1.7",
+    "puppeteer-extra-plugin-stealth": "2.4.5",
+    "puppeteer-page-proxy": "^1.2.3",
+    "simple-node-logger": "18.12.23"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Tyler Burleigh <tylerburleigh@gmail.com>",
+  "license": "GPL3"
+}
